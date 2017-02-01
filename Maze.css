@@ -1,0 +1,29 @@
+  
+  table.FixedCells {
+  table-layout: fixed;
+  border-collapse:collapse;
+  width:480px;
+  height:480px;
+  }
+table.FixedCells td{
+overflow:hidden;
+
+}	
+ table,th,td {
+  border: 2px solid black;
+  }
+  td:hover{
+	  background-color:#9cb0b1
+  }
+  td{
+	  height:50px;
+	  width:50px;
+  }
+  img{
+	  opacity:0.5;
+  }
+  .GameOver{
+	  text-align:center;
+	  font-size:50px;
+	  color:red;
+  }

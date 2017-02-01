@@ -1,4 +1,6 @@
-  
+
+
+
   table.FixedCells {
   table-layout: fixed;
   border-collapse:collapse;
@@ -7,42 +9,48 @@
   }
 table.FixedCells td{
 overflow:hidden;
+border: 0;
 
 }	
+p.white{
+  color: white;
+}
 
-.boarderBottom{
+td.borderBottom {
+  border-bottom: 1px solid #000000;
+
+}
+.borderTop{
+  
+  border-right: 1px solid #000000;
+}
+.borderRight{
+  border-right: : 1px solid #000000;
+}
+.borderLeft{
+  border-left: : 1px solid #000000;
+}
+.borderTopBottom{
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+.borderTopleft{
+  border-left: : 1px solid #000000;
+  border-top: 1px solid #000000; 
+}
+.borderTopRight{
+  border-right: : 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+.borderLeftBottom{
+  border-bottom: 1px solid #000000
+  border-left: : 1px solid #000000;
+}
+.borderLeftRight{
   border-bottom: 1px solid black
-}
-.boarderTop{
-  border-top: : 1px solid black;
-}
-.boarderRight{
-  border-right: : 1px solid black;
-}
-.boarderLeft{
   border-left: : 1px solid black;
 }
-.boarderTopBottom{
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-}
-.boarderTopleft{
-  border-left: : 1px solid black;
-  border-top: 1px solid black; 
-}
-.boarderTopRight{
-  border-right: : 1px solid black;
-  border-top: 1px solid black;
-}
-.boarderLeftBottom{
-  border-bottom: 1px solid black
-  border-left: : 1px solid black;
-}
-.boarderLeftRight{
-  border-bottom: 1px solid black
-  border-left: : 1px solid black;
-}
-.boarderRightBottom{
+.borderRightBottom{
   border-bottom: 1px solid black
   border-right: : 1px solid black;
 }
@@ -60,10 +68,11 @@ overflow:hidden;
 	  width:50px;
   }
   img{
-	  opacity:0.5;
+	  opacity:0.0;
   }
   .GameOver{
 	  text-align:center;
 	  font-size:50px;
 	  color:red;
   }
+

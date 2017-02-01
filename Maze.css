@@ -9,6 +9,46 @@ table.FixedCells td{
 overflow:hidden;
 
 }	
+
+.boarderBottom{
+  border-bottom: 1px solid black
+}
+.boarderTop{
+  border-top: : 1px solid black;
+}
+.boarderRight{
+  border-right: : 1px solid black;
+}
+.boarderLeft{
+  border-left: : 1px solid black;
+}
+.boarderTopBottom{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.boarderTopleft{
+  border-left: : 1px solid black;
+  border-top: 1px solid black; 
+}
+.boarderTopRight{
+  border-right: : 1px solid black;
+  border-top: 1px solid black;
+}
+.boarderLeftBottom{
+  border-bottom: 1px solid black
+  border-left: : 1px solid black;
+}
+.boarderLeftRight{
+  border-bottom: 1px solid black
+  border-left: : 1px solid black;
+}
+.boarderRightBottom{
+  border-bottom: 1px solid black
+  border-right: : 1px solid black;
+}
+
+
+
  table,th,td {
   border: 2px solid black;
   }

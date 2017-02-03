@@ -11,7 +11,7 @@ table.FixedCells td{
 overflow:hidden;
 border: 0;
 
-}	
+}
 p.white{
   color: white;
 }
@@ -19,7 +19,7 @@ p.white{
 
 
 .borderTop{
-  
+
   border-right: 1px solid #000000;
 }
 .borderRight{
@@ -34,7 +34,7 @@ p.white{
 }
 .borderTopleft{
   border-left: : 1px solid #000000;
-  border-top: 1px solid #000000; 
+  border-top: 1px solid #000000;
 }
 .borderTopRight{
   border-right: : 1px solid #000000;
@@ -52,9 +52,6 @@ p.white{
   border-bottom: 1px solid black
   border-right: : 1px solid black;
 }
-
-
-
  table,th,td {
   border: 2px solid black;
   }
@@ -66,7 +63,7 @@ p.white{
 	  width:50px;
   }
   img{
-	  opacity:0.0;
+
   }
   .GameOver{
 	  text-align:center;
@@ -74,3 +71,19 @@ p.white{
 	  color:red;
   }
 
+
+
+  #line{
+    -webkit-transform: scale(2.8);
+   -moz-transform: scale(2.8);
+   -o-transform: scale(2.8);
+   -ms-transform: scale(2.8);
+   transform: scale(2.8);
+  }
+  #L{
+    -webkit-transform: scale(2.8);
+   -moz-transform: scale(2.8);
+   -o-transform: scale(2.8);
+   -ms-transform: scale(2.8);
+   transform: scale(2.8);
+  }

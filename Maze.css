@@ -16,7 +16,9 @@ p.white{
   color: white;
 }
 
-
+.ImageLink{
+	opacity:0;
+}
 
 .borderTop{
 

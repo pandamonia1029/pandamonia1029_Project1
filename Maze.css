@@ -12,7 +12,7 @@ overflow:hidden;
 border: 0;
 
 }
-p.white{
+.white{
   color: white;
 }
 
@@ -24,7 +24,7 @@ p.white{
 
   border-right: 1px solid #000000;
 }
-.borderRight{
+td.borderRight{
   border-right: : 1px solid #000000;
 }
 .borderLeft{
